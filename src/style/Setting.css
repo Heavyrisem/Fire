@@ -1,0 +1,21 @@
+.Setting {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(61, 61, 61, 0.521);
+
+    border-radius: 1rem;
+    /* text-align: center; */
+}
+.Setting input, select {
+    display: inline-block;
+    background: none;
+    border: solid 1px white;
+    border-style: none none solid none;
+    color: white;
+}
